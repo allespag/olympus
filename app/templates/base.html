@@ -8,7 +8,13 @@
     </head>
 
     <body>
-        <div id="content">{% block content %}{% endblock %}</div>
+        {% block content %}
+        <div id="tags">
+            {% for tag in tags.values() %}
+            <a href="../tag/{{ tag.name }}" class="tag" style="background-color:cadetblue">#{{ tag.name }}</a>
+            {% endfor %}
+        </div>
+        {% endblock %}
     </body>
 
 </html>
