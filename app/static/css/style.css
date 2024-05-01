@@ -1,0 +1,39 @@
+@font-face {
+    font-family: coolvetica;
+    src: url(../fonts/coolvetica\ condensed\ rg.otf);
+}
+
+.tag {
+    /* https://www.w3schools.com/css/css3_borders.asp */
+    border-radius: 15px;
+    padding-left: 7px;
+    padding-right: 7px;
+
+    font-family: coolvetica;
+    font-size: 50px;
+    color: white;
+}
+
+.tag:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+/* Header */
+
+.title {
+    font-size: 75px;
+}
+
+.tagline {
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* Footer */
+
+footer {
+    background: #eee;
+    color: #999;
+    border-top: 1px solid #Ccc;  
+}

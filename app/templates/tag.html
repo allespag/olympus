@@ -1,8 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
-<audio controls>
-    <source src="{{ url_for('static', path='/audio/walker/' ~ tag.audio) }}" type="audio/mpeg">
-    Your browser does not support the audio element.
-</audio>
+<div id="player" class="w-100" style="background-color: {{ tag.color }}">
+    <button class="audio-button" onclick="toggleAudio()">Play Audio</button>
+    <audio id="tag-audio">
+        <source src="{{ url_for('static', path='/audio/walker/' ~ tag.audio) }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <h1>#{{ tag.name }}</h1>
+    <p>{{ tag.content }}</p>
+    <button>SHARE</button>
+    <form action="{{ url_for('index') }}">
+        <input type="submit" value="X" />
+    </form>
+</div>
 {{ super() }}
 {% endblock %}
