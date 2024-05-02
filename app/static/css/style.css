@@ -3,6 +3,15 @@
     src: url(../fonts/coolvetica\ condensed\ rg.otf);
 }
 
+.icon-button {
+    background: none;
+    border: none;
+}
+
+.icon-button:focus {
+    outline: none;
+}
+
 .tag {
     /* https://www.w3schools.com/css/css3_borders.asp */
     border-radius: 15px;
@@ -30,10 +39,32 @@
     font-style: italic;
 }
 
+/* Player */
+
+.tag-name {
+    color: white;
+}
+
+.citation {
+    font-size: 16px;
+    font-style: italic;
+    color: white;
+}
+
+.audio-button {
+    color: rgba(255, 255, 255, 0.66);
+}
+
 /* Footer */
 
 footer {
     background: #eee;
     color: #999;
     border-top: 1px solid #Ccc;  
+}
+
+/* Icon */
+
+.icon {
+    color: white;
 }
