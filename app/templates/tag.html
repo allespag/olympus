@@ -4,21 +4,21 @@
     <div>
         <div class="d-flex justify-content-center flex-nowrap">
             <button class="icon-button audio-button" onclick="toggleAudio();">
-                <div id ="icon-button-play" class="fa-solid fa-circle-play fa-3x"></div>
-                <div id ="icon-button-stop" class="fa-solid fa-circle-pause fa-3x" style="display: none;"></div>
+                <div id="icon-button-play" class="fa-solid fa-circle-play fa-3x"></div>
+                <div id="icon-button-stop" class="fa-solid fa-circle-pause fa-3x" style="display: none;"></div>
             </button>
             <h1 class="tag-name">#{{ tag.name }}</h1>
-            <div>
-                <form action="{{ url_for('index') }}">
-                    <input type="submit" value="X" />
-                </form>
-            </div>
         </div>
         <div class="citation d-flex justify-content-center flex-nowrap">
             “ {{ tag.content }} ”
         </div>
         <div class="d-flex justify-content-center flex-nowrap">
             <i class="icon fa-solid fa-link" color></i>
+        </div>
+        <div class="close-button">
+            <form action="{{ url_for('index') }}">
+                <input class="icon-button fa-solid fa-xmark" type="submit" value="X" style="color: #b0b0b050">
+            </form>
         </div>
     </div>
     <audio id="tag-audio" autoplay preload="true" onplay="showPlaying();" onpause="showStopped();" onended="showStopped();">

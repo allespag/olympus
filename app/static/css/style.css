@@ -41,6 +41,11 @@
 
 /* Player */
 
+#player {
+    padding: 15px;
+    position: relative;
+}
+
 .tag-name {
     color: white;
 }
@@ -53,6 +58,13 @@
 
 .audio-button {
     color: rgba(255, 255, 255, 0.66);
+}
+
+.close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 22px;
 }
 
 /* Footer */
