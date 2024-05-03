@@ -22,7 +22,7 @@
         </div>
     </div>
     <audio id="tag-audio" autoplay preload="true" onplay="showPlaying();" onpause="showStopped();" onended="showStopped();">
-        <source src="{{ url_for('static', path='/audio/walker/' ~ tag.audio) }}" type="audio/mpeg">
+        <source src="{{ url_for('static', path='/audio/' ~ tag.audio) }}" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 </div>
