@@ -1,18 +1,24 @@
 import json
 import typing as tp
+from enum import StrEnum
 from pathlib import Path
 from random import choice
 
 from pydantic import BaseModel, Field
 
-COLORS = ["#146173", "#96332D", "#CBAE57", "#72752D"]
+
+class Color(StrEnum):
+    MIDNIGHT_GREEN = "#146173"
+    AUBURN = "#96332D"
+    GOLD_METALLIC = "#CBAE57"
+    OLIVE = "#72752D"
 
 
 class Tag(BaseModel):
     name: str
     audio: str
     content: str
-    color: str = Field(default_factory=lambda: choice(COLORS))
+    color: str = Field(default_factory=lambda: choice(list(Color)))
 
 
 class TagCollection(BaseModel):
