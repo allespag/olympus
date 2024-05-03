@@ -17,9 +17,6 @@ function showStopped() {
 function toggleAudio() {
   var audio = document.getElementById("tag-audio");
 
-  // TODO: create a slide volume
-  audio.volume = 0.5;
-
   if (audio.paused) {
     audio.play();
   } else {
