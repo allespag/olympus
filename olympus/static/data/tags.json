@@ -150,34 +150,74 @@
         "content": "Oh, j'ai tellement faim que la collecte des impôts ne m'apporte plus aucune joie."
     },
     {
-        "name": "médiocre",
+        "name": "bref",
         "audio": "clk_g_6.mp3",
         "content": "Je vais être bref. Cette cité est médiocre."
     },
     {
-        "name": "",
-        "audio": "",
-        "content": ""
+        "name": "bougeraipas",
+        "audio": "crt_e_1.mp3",
+        "content": "Je ne bougerai pas tant que vous n'engagez pas quelqu'un pour m'aider à décharger ces marchandises."
     },
     {
-        "name": "",
-        "audio": "",
-        "content": ""
+        "name": "marchandises",
+        "audio": "crt_e_2.mp3",
+        "content": "Le seul endroit où je puisse stocker mes marchandises dans cette cité, c'est ici dans ma charrette."
     },
     {
-        "name": "",
-        "audio": "",
-        "content": ""
+        "name": "ulyss",
+        "audio": "crt_e_3.mp3",
+        "content": "Qui suis-je, Ulysse ? Et combien de temps devrai-je voyager avant ma destination ? Et où est Calypso ?"
     },
     {
-        "name": "",
-        "audio": "",
-        "content": ""
+        "name": "spécimens",
+        "audio": "cur_g_1.mp3",
+        "content": "Si je montais une galerie de gens malades, j'aurais l'embarras du choix pour sélectionner mes spécimens !"
     },
     {
-        "name": "",
-        "audio": "",
-        "content": ""
+        "name": "impossible",
+        "audio": "cur_g_2.mp3",
+        "content": "Impossible de faire mon travail dans ces conditions ! Je meurs de faim !"
+    },
+    {
+        "name": "faiblesse",
+        "audio": "cur_g_3.mp3",
+        "content": "La faiblesse de notre système de défense est un véritable appel à l'invasion ! Pourvu que nos ennemis n'y répondent pas !"
+    },
+    {
+        "name": "consternés",
+        "audio": "cur_g_4.mp3",
+        "content": "Nos ancêtres seraient consternés! Comment peut-on être le vassal d'une autre cité ?"
+    },
+    {
+        "name": "rebelles",
+        "audio": "cur_g_5.mp3",
+        "content": "Les sujets rebelles ne peuvent raisonnablement pas espérer nous échapper ! Ils rêvent !"
+    },
+    {
+        "name": "médiocre",
+        "audio": "cur_g_6.mp3",
+        "content": "Je placerais cette cité dans la catégorie médiocre."
+    },
+    {
+        "name": "horscatégorie",
+        "audio": "cur_g_7.mp3",
+        "content": "Cette cité est hors catégorie, c'est la plus belle qui soit !"
+    },
+    {
+        "name": "regardez",
+        "audio": "dio_e_1.mp3",
+        "content": "Regardez tous ces gens heureux ! Un peu plus de vin les rendrait encore plus joyeux !"
+    },
+    {
+        "name": "affamés",
+        "audio": "fdv_e_1.mp3",
+        "content": "Je suis impatiente d'obtenir les meilleurs produits pour mes clients ! Je n'aimerais pas qu'ils soient affamés !"
+    },
+    {
+        "name": "légers",
+        "audio": "fdv_e_2.mp3",
+        "content": "Je ne sais pas de quoi mes assistants se plaignent ! Ces colis sont légers comme des plumes !"
     },
     {
         "name": "",
