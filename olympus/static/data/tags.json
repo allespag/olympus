@@ -5,8 +5,193 @@
         "content": "Mais enfin, une cité ne se conçoit pas sans vin !"
     },
     {
-        "name": "vin",
-        "audio": "Dio_ev_8.mp3",
-        "content": "Mais enfin, une cité ne se conçoit pas sans vin !"
+        "name": "conversation",
+        "audio": "plato.wav",
+        "content": "On peut en savoir plus sur quelqu'un en une heure de jeu quand une année de conversation."
+    },
+    {
+        "name": "tounis",
+        "audio": "thtr_spin1.wav",
+        "content": "Hééé ! Est-ce qu'on pourrait arrêter ce tournis, par pitié ? C'est que je commence à être vraiment malade."
+    },
+    {
+        "name": "omg",
+        "audio": "thtr_spin2.wav",
+        "content": "Oooh oooh OOOOOOOOUHOOUH ! Oh mon Dieu ! Oooooh..."
+    },
+    {
+        "name": "lance",
+        "audio": "thtr_spear1.wav",
+        "content": "Quelqu'un a-t-il vu ma lance ? Comment voulez vous que je joue, correctement, si je n'ai pas de lance."
+    },
+    {
+        "name": "mariezvous",
+        "audio": "socrates.wav",
+        "content": "Mon conseil est le suivant : mariez-vous. Si vous trouvez une femme convenable, elle vous rendra heureux. Sinon vous ferez un excellent philosophe."
+    },
+    {
+        "name": "génie",
+        "audio": "aristotle.wav",
+        "content": "Le génie n'éxiste pas sans un grain de folie."
+    },
+    {
+        "name": "moussaka",
+        "audio": "ach_g_2.mp3",
+        "content": "La faim me rappelle la bonne époque, où Chiron cuisinait pour moi. Il était réputé pour faire la meilleure moussaka."
+    },
+    {
+        "name": "sidérer",
+        "audio": "act_e_1.mp3",
+        "content": "Et je m'en vais sidérer toute la Grèce par mon jeu."
+    },
+    {
+        "name": "deuxième",
+        "audio": "act_e_3.mp3",
+        "content": "Comment est-ce possible ? Deuxième au jeu ? L'épreuve devait être truquée !"
+    },
+    {
+        "name": "triste",
+        "audio": "act_e_4.mp3",
+        "content": "C'est un jour bien triste pour la Grèce, car de grands acteurs tels que moi sont ridiculisés. Sommes-nous devenus des barbares ?"
+    },
+    {
+        "name": "melpomène",
+        "audio": "act_g_1.mp3",
+        "content": "Douce Melpomène... L'hygiène de la cité est effroyable, et la peste pourrait bien frapper comme je le fais lors de mes représentations !"
+    },
+    {
+        "name": "standing",
+        "audio": "act_g_6.mp3",
+        "content": "Hum cette cité est bien en dessous du standing auquel j'aspire."
+    },
+    {
+        "name": "homère",
+        "audio": "act_g_7.mp3",
+        "content": "Le plus grand acteur de toute la Grèce vit dans la plus grande cité, dirigé par le meilleur des souverains. Voilà qui est digne des épopées d'Homère..."
+    },
+    {
+        "name": "deusexmachina",
+        "audio": "act_i_1.mp3",
+        "content": "Nous pourrions vraiment avoir recours à un Deus Ex Machina tout de suite. Je fuirais pendant ce temps."
+    },
+    {
+        "name": "félicitations",
+        "audio": "aph_ev_7.mp3",
+        "content": "Félicitations, mon petit oursin, vous avez mené à bien cette quête !"
+    },
+    {
+        "name": "adorateurs",
+        "audio": "aph_ev_8.mp3",
+        "content": "Ciel ! Cette cité est si peu peuplée que je compte mes adorateurs sur les doigts d'une main !"
+    },
+    {
+        "name": "cracheurdefeu",
+        "audio": "are_e_1.mp3",
+        "content": "Viens mon ami cracheur de feu ! Nous allons trouver de quoi t'amuser un peu !"
+    },
+    {
+        "name": "feignant",
+        "audio": "are_e_2.mp3",
+        "content": "Goûte au tranchant de ma lame, maudit feignant !"
+    },
+    {
+        "name": "attrapéfroid",
+        "audio": "ath_e_3.mp3",
+        "content": "J'aurais pu gagner les jeux mais j'ai attrapé froid ce jour-là. Enfin, deuxième, c'est pas si mal, hein ?"
+    },
+    {
+        "name": "hahaha",
+        "audio": "ath_e_4.mp3",
+        "content": "Comment se sont passés les jeux ? Hahaha... Je préfère ne pas en parler."
+    },
+    {
+        "name": "adonis",
+        "audio": "ath_g_2.mp3",
+        "content": "Je commence à perdre mes muscles ! J'ai besoin de nourriture pour entretenir mon corps d'Adonis !"
+    },
+    {
+        "name": "maigrelets",
+        "audio": "ath_g_3.mp3",
+        "content": "Regardez tous ces paresseux maigrelets sans emploi! Ils feraient bien de se remettre en forme et de trouver du travail."
+    },
+    {
+        "name": "ajax",
+        "audio": "ath_g_7.mp3",
+        "content": "Cette cité est comme Ajax, elle surpasse toutes les autres !"
+    },
+    {
+        "name": "risaunez",
+        "audio": "bel_g_2.mp3",
+        "content": "Les gens se plaignent d'avoir faim. Moi, la faim, je lui ris au nez ! Hahaha..."
+    },
+    {
+        "name": "viande",
+        "audio": "bht_g_1.mp3",
+        "content": "Les gens d'ici ne sont pas en bonne santé. Peut-être qu'ils ont besoin d'un peu plus de viande ?"
+    },
+    {
+        "name": "vroom",
+        "audio": "chv_e_1.mp3",
+        "content": "Je suis exité comme Phaethon. Il me tarde d'essayer les nouveaux chars. VROOM VROOM."
+    },
+    {
+        "name": "troisminutes",
+        "audio": "chv_e_2.mp3",
+        "content": "Quel beau char... Attelé à un bon cheval, il peut passer de 0 à 40 en 3 minutes !"
+    },
+    {
+        "name": "mort",
+        "audio": "clk_g_1.mp3",
+        "content": "Les gens ne peuvent pas payer d'impôt quand ils sont mort. Et beaucoup le seront bientôt si on n'améliore pas l'hygiène."
+    },
+    {
+        "name": "joie",
+        "audio": "clk_g_2.mp3",
+        "content": "Oh, j'ai tellement faim que la collecte des impôts ne m'apporte plus aucune joie."
+    },
+    {
+        "name": "médiocre",
+        "audio": "clk_g_6.mp3",
+        "content": "Je vais être bref. Cette cité est médiocre."
+    },
+    {
+        "name": "",
+        "audio": "",
+        "content": ""
+    },
+    {
+        "name": "",
+        "audio": "",
+        "content": ""
+    },
+    {
+        "name": "",
+        "audio": "",
+        "content": ""
+    },
+    {
+        "name": "",
+        "audio": "",
+        "content": ""
+    },
+    {
+        "name": "",
+        "audio": "",
+        "content": ""
+    },
+    {
+        "name": "",
+        "audio": "",
+        "content": ""
+    },
+    {
+        "name": "",
+        "audio": "",
+        "content": ""
+    },
+    {
+        "name": "",
+        "audio": "",
+        "content": ""
     }
 ]

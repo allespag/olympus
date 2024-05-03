@@ -38,7 +38,9 @@ async def index(request: Request):
 @app.get("/tag/{tag_name}")
 async def tag(resquest: Request, tag_name: str):
     return templates.TemplateResponse(
-        request=resquest, name="tag.html", context={"tags": TAGS, "tag": TAGS[tag_name]}
+        request=resquest,
+        name="tag.html",
+        context={"tags": TAGS, "tag": TAGS[tag_name]},
     )
 
 
