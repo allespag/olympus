@@ -5,6 +5,8 @@ description = "Zeus : Master of Olympus soundboard"
 authors = ["Alexandre <allespag@student.42.fr>"]
 readme = "README.md"
 
+packages = [{ include = "olympus" }]
+
 [tool.poetry.dependencies]
 python = "^3.11"
 fastapi = "^0.110.3"

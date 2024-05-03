@@ -1,12 +1,12 @@
 from pathlib import Path
-from random import choice
 
 import uvicorn
 from fastapi import FastAPI, Request
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from pydantic import BaseModel, Field
+
+from olympus.tags import TagCollection
 
 app = FastAPI()
 
@@ -23,27 +23,7 @@ app.mount(
 templates = Jinja2Templates(directory="templates")
 
 
-COLORS = ["#146173", "#96332D", "#CBAE57", "#72752D"]
-
-
-class Tag(BaseModel):
-    name: str
-    audio: str
-    content: str
-    color: str = Field(default_factory=lambda: choice(COLORS))
-
-
-# Temporary
-a = Tag(name="acteur", audio="act_g_4.mp3", content="PLACEHOLDER")
-b = Tag(
-    name="nourri",
-    audio="Dem_ev_2.mp3",
-    content="Que peut-on désirer de mieux qu'un peuple bien nourri ?",
-)
-TAGS = {
-    a.name: a,
-    b.name: b,
-}
+TAGS = TagCollection.from_json(STATIC_FOLDER / "data" / "tags.json")
 
 
 @app.get("/")
