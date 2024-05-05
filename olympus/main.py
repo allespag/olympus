@@ -2,7 +2,7 @@ from pathlib import Path
 
 import uvicorn
 from fastapi import FastAPI, Request
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, RedirectResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
@@ -47,6 +47,11 @@ async def tag(resquest: Request, tag_name: str):
 @app.get("/favicon.ico")
 async def favicon():
     return FileResponse(STATIC_FOLDER / "images" / "favicon.ico")
+
+
+@app.exception_handler(404)
+async def not_found_exception(_, __):
+    return RedirectResponse("/")
 
 
 if __name__ == "__main__":
