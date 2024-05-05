@@ -130,14 +130,14 @@
         "content": "Les gens d'ici ne sont pas en bonne santé. Peut-être qu'ils ont besoin d'un peu plus de viande ?"
     },
     {
-        "name": "vroom",
+        "name": "vroum",
         "audio": "chv_e_1.mp3",
-        "content": "Je suis exité comme Phaethon. Il me tarde d'essayer les nouveaux chars. VROOM VROOM."
+        "content": "Je suis excité comme Phaéton. Il me tarde d'essayer le nouveau char ! Vroum ! Vroum !"
     },
     {
         "name": "troisminutes",
         "audio": "chv_e_2.mp3",
-        "content": "Quel beau char... Attelé à un bon cheval, il peut passer de 0 à 40 en 3 minutes !"
+        "content": "Quel beau char ! Attelé à un bon cheval, il peut passer de 0 à 40 en trois minutes !"
     },
     {
         "name": "mort",
@@ -187,7 +187,7 @@
     {
         "name": "consternés",
         "audio": "cur_g_4.mp3",
-        "content": "Nos ancêtres seraient consternés! Comment peut-on être le vassal d'une autre cité ?"
+        "content": "Nos ancêtres seraient consternés ! Comment peut-on être le vassal d'une autre cité ?"
     },
     {
         "name": "rebelles",
@@ -220,18 +220,183 @@
         "content": "Je ne sais pas de quoi mes assistants se plaignent ! Ces colis sont légers comme des plumes !"
     },
     {
-        "name": "",
-        "audio": "",
-        "content": ""
+        "name": "bêê",
+        "audio": "flv_i_1.mp3",
+        "content": "Bêê, bêê ! Qui voudrait faire du mal à un petit mouton n'est-ce pas ? Bêê bêê !"
+    },
+    {
+        "name": "trésorerie",
+        "audio": "had_ev_8.mp3",
+        "content": "Salutation, camarade, il semblerait que votre trésorerie ait bien besoin d'un petit coup de pouce !"
+    },
+    {
+        "name": "quelquechose",
+        "audio": "hec_i_1.mp3",
+        "content": "Vous avez fait quelque chose que quelqu'un n'apprécie pas beaucoup !"
+    },
+    {
+        "name": "travaux",
+        "audio": "hec_g_3.mp3",
+        "content": "Si la cité n'a pas envie de leur trouver du travail, je pourrais confier quelques travaux à ces chômeurs !"
+    },
+    {
+        "name": "promenade",
+        "audio": "her_e_1.mp3",
+        "content": "Ah ! C'est l'heure de ma promenade matinal, c'est le meilleur moyen de garder la forme !"
+    },
+    {
+        "name": "problème",
+        "audio": "hsm_i_1.mp3",
+        "content": "Je sais reconnaître un problème quand j'en vois un. Et là, j'en vois un de taille !"
+    },
+    {
+        "name": "cheval",
+        "audio": "htr_e_1.mp3",
+        "content": "Qu'est-ce, que je vais acheter ? Un cheval ? Un cheval naturellement !"
+    },
+    {
+        "name": "superbeschevaux",
+        "audio": "htr_e_2.mp3",
+        "content": "Avancez, mes petits. Ces superbes chevaux sont exactement ce que réclament mes clients."
+    },
+    {
+        "name": "pégase",
+        "audio": "htr_i_1.mp3",
+        "content": "Pourquoi l'un de ses chevaux n'est-il pas un Pégase ? J'aimerais pouvoir m'envoler d'ici !"
+    },
+    {
+        "name": "nouveaufoyer",
+        "audio": "imm_e_1.mp3",
+        "content": "Une nouvelle cité, un nouveau foyer et peut-être un nouvel emploi ! La chance me sourit !"
+    },
+    {
+        "name": "vauriens",
+        "audio": "m_mae.mp3",
+        "content": "Vauriens ! Je vais te mettre en morceaux membre par membre !"
+    },
+    {
+        "name": "dévorez",
+        "audio": "m_har.mp3",
+        "content": "Je vais vous attraper et vous dévorez !"
+    },
+    {
+        "name": "gensriches",
+        "audio": "nob_g_1.mp3",
+        "content": "Les conditions d'hygiène dans la cité sont atroces. Même les gens riches qui vivent dans les quartiers nobles ont peur de tomber malades !"
+    },
+    {
+        "name": "classesinférieures",
+        "audio": "nob_g_2.mp3",
+        "content": "Je ne comprends pas de quoi se plaignent les classes inférieures. J'ai plein de nourriture !"
+    },
+    {
+        "name": "provisions",
+        "audio": "pdl_e_1.mp3",
+        "content": "J'ai besoin de plus de provisions de l'agora ! Mes clients sont exigeants !"
+    },
+    {
+        "name": "légère",
+        "audio": "pdl_e_2.mp3",
+        "content": "Ma charrette est trop légère ! Il est temps de la remplir de marchandises !"
+    },
+    {
+        "name": "périclès",
+        "audio": "pdl_e_5.mp3",
+        "content": "Qu'est-ce qu'il vous faut, madame Périclès ? Ah oui, et bien voilà !"
+    },
+    {
+        "name": "insulté",
+        "audio": "pdl_i_1.mp3",
+        "content": "Je ne m'attendais pas à être insulté ! Je file d'ici !"
+    },
+    {
+        "name": "huile",
+        "audio": "oiv_e_1.mp3",
+        "content": "Voilà encore plus d'huile d'olive !"
+    },
+    {
+        "name": "menaller",
+        "audio": "oiv_i_1.mp3",
+        "content": "Je vais m'en aller maintenant !"
     },
     {
         "name": "",
-        "audio": "",
-        "content": ""
+        "audio": "pre_e_1.mp3",
+        "content": "Je cherche une chèvre avec une toison bien fournie. Mais pas trop. Et dodue, mais pas trop. De préférence une qui n'est pas un dieu déguisé."
     },
     {
         "name": "",
-        "audio": "",
-        "content": ""
+        "audio": "pre_e_2.mp3",
+        "content": "Ne sois pas effrayé, petit mouton, je ne te ferai pas de mal. Pas beaucoup en tout cas."
+    },
+    {
+        "name": "",
+        "audio": "pre_e_3.mp3",
+        "content": "Arrête de bêler, je me sens coupable !"
+    },
+    {
+        "name": "",
+        "audio": "pre_e_4.mp3",
+        "content": "De grandes choses t'attendent, petit mouton, fais-moi confiance !"
+    },
+    {
+        "name": "",
+        "audio": "shp_e_2.mp3",
+        "content": "Bientôt mes petits moutons tout frisés seront tondus !"
+    },
+        {
+        "name": "",
+        "audio": "shp_e_3.mp3",
+        "content": "Tiens-toi tranquille, petit, je ne veux pas te couper !"
+    },
+    {
+        "name": "",
+        "audio": "she_g_3.mp3",
+        "content": "Peut-être devriez vous rassembler les chômeurs et les conduire hors de la cité ?"
+    },
+    {
+        "name": "",
+        "audio": "she_g_2.mp3",
+        "content": "J'ai tellement faim, je me demande quel goût à l'herbe ? Les moutons ont l'air de l'aimer !"
+    },
+    {
+        "name": "archimède",
+        "audio": "sup_e_5.mp3",
+        "content": "Avez-vous déjà vu des bâtiments plus solides ? Archimède serait fier !"
+    },
+    {
+        "name": "eurêka",
+        "audio": "sup_g_7.mp3",
+        "content": "Eurêka ! J'ai trouvé la meilleure cité et le dirigeant le plus efficace !"
+    },
+    {
+        "name": "sisyphe",
+        "audio": "trd_e_2.mp3",
+        "content": "À force d'aller et venir, je me sens comme Sisyphe."
+    },
+    {
+        "name": "cliquer",
+        "audio": "trd_w_1.mp3",
+        "content": "Cliquer sur moi ? C'est moi vais cliquer sur vous ! Vous et votre cité puante ! Je ne traite avec vous que parce que mon chef me le demande !"
+    },
+    {
+        "name": "recevoir",
+        "audio": "tri_e_1.mp3",
+        "content": "Pour l'instant, il n'y a aucun ennemi dans nos eaux, mais nous sommes prêts à les recevoir s'ils viennent."
+    },
+    {
+        "name": "détritus",
+        "audio": "trs_w_1.mp3",
+        "content": "C'est à moi que vous parlez ? Vous et votre cité n'êtes qu'un tas de détritus et tout le monde en Grèce vous hait."
+    },
+    {
+        "name": "expulsé",
+        "audio": "vag_e_1.mp3",
+        "content": "Expulsé de chez moi ! Qu'est-ce que j'ai fait pour mériter ça ?"
+    },
+    {
+        "name": "troubles",
+        "audio": "wtc_e_1.mp3",
+        "content": "Des troubles dans la cité ? Taisez-vous donc ! Ici, tout est calme !"
     }
 ]
