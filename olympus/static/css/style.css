@@ -3,6 +3,11 @@
     src: url(../fonts/coolvetica\ condensed\ rg.otf);
 }
 
+@font-face {
+    font-family: DalekPinpointBold;
+    src: url(../fonts/DalekPinpointBold.ttf);
+}
+
 .icon-button {
     background: none;
     border: none;
@@ -31,12 +36,15 @@
 /* Header */
 
 .title {
+    font-family: DalekPinpointBold;
     font-size: 75px;
+    color: #96332D;
 }
 
 .tagline {
     font-size: 16px;
     font-style: italic;
+    color: gray;
 }
 
 .big {
@@ -52,6 +60,7 @@
 
 .tag-name {
     color: white;
+    font-family: coolvetica;
 }
 
 .citation {
