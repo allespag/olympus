@@ -4,8 +4,9 @@ from pathlib import Path
 import pytest
 
 from olympus.tags import TagCollection
+from olympus.utils import get_project_root
 
-STATIC_FOLDER_PATH = Path("olympus/static")
+STATIC_FOLDER_PATH = get_project_root() / "static"
 
 
 @pytest.fixture
