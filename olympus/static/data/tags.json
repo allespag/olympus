@@ -320,42 +320,42 @@
         "content": "Je vais m'en aller maintenant !"
     },
     {
-        "name": "",
+        "name": "toison",
         "audio": "pre_e_1.mp3",
         "content": "Je cherche une chèvre avec une toison bien fournie. Mais pas trop. Et dodue, mais pas trop. De préférence une qui n'est pas un dieu déguisé."
     },
     {
-        "name": "",
+        "name": "effrayé",
         "audio": "pre_e_2.mp3",
         "content": "Ne sois pas effrayé, petit mouton, je ne te ferai pas de mal. Pas beaucoup en tout cas."
     },
     {
-        "name": "",
+        "name": "bêler",
         "audio": "pre_e_3.mp3",
         "content": "Arrête de bêler, je me sens coupable !"
     },
     {
-        "name": "",
+        "name": "confiance",
         "audio": "pre_e_4.mp3",
         "content": "De grandes choses t'attendent, petit mouton, fais-moi confiance !"
     },
     {
-        "name": "",
+        "name": "tondus",
         "audio": "shp_e_2.mp3",
         "content": "Bientôt mes petits moutons tout frisés seront tondus !"
     },
         {
-        "name": "",
+        "name": "tranquille",
         "audio": "shp_e_3.mp3",
         "content": "Tiens-toi tranquille, petit, je ne veux pas te couper !"
     },
     {
-        "name": "",
+        "name": "rassembler",
         "audio": "she_g_3.mp3",
         "content": "Peut-être devriez vous rassembler les chômeurs et les conduire hors de la cité ?"
     },
     {
-        "name": "",
+        "name": "herbe",
         "audio": "she_g_2.mp3",
         "content": "J'ai tellement faim, je me demande quel goût à l'herbe ? Les moutons ont l'air de l'aimer !"
     },
