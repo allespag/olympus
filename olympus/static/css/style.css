@@ -71,6 +71,38 @@
     font-size: 22px;
 }
 
+.popup {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 999;
+    display: none;
+    animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 20px;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        top: 20px;
+    }
+    to {
+        top: -50px;
+    }
+}
+
 /* Footer */
 
 footer {
@@ -84,3 +116,4 @@ footer {
 .icon {
     color: white;
 }
+

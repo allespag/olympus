@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
+<div id="popup" class="popup">Link has been copied to clipboard</div>
 <div id="player" class="w-100" style="background-color: {{ tag.color }}">
     <div>
         <div class="d-flex justify-content-center flex-nowrap">
@@ -13,7 +14,9 @@
             “ {{ tag.content }} ”
         </div>
         <div class="d-flex justify-content-center flex-nowrap">
-            <i class="icon fa-solid fa-link" color></i>
+            <button class="icon-button" onclick="copyToClipboard(document.URL)">
+                <div class="icon fa-solid fa-link" color></div>
+            </button>
         </div>
         <div class="close-button">
             <form action="{{ url_for('index') }}">
