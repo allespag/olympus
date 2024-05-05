@@ -3,15 +3,13 @@ from pathlib import Path
 
 import pytest
 
+from olympus.main import STATIC_FOLDER
 from olympus.tags import TagCollection
-from olympus.utils import get_project_root
-
-STATIC_FOLDER_PATH = get_project_root() / "static"
 
 
 @pytest.fixture
 def tags_path() -> Path:
-    return STATIC_FOLDER_PATH / "data" / "tags.json"
+    return STATIC_FOLDER / "data" / "tags.json"
 
 
 @pytest.fixture
@@ -32,5 +30,5 @@ def test_tags_duplicate(tags_path: Path, tags: TagCollection):
 
 def test_audio_exists(tags: TagCollection):
     for tag in tags.items.values():
-        p = STATIC_FOLDER_PATH / "audio" / tag.audio
+        p = STATIC_FOLDER / "audio" / tag.audio
         assert p.exists()
