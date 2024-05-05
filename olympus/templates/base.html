@@ -21,11 +21,11 @@
         <body>
             <header class="text-center">
                 <p class="title">Olympus</p>
-                <p class="tagline big">BIG TAGLINE LOL</p>
                 <p class="tagline">Extrais du Maître de l'Olympe : Zeus</p>
             </header>
+            <br>
             {% block content %}
-            <div id="tags">
+            <div id="tags" class="text-center">
                 {% for tag in tags.items.values() %}
                 <a href="../tag/{{ tag.name }}" class="tag" style="background-color: {{ tag.color }}">#{{ tag.name }}</a>
                 {% endfor %}
