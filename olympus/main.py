@@ -7,20 +7,20 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
 from olympus.tags import TagCollection
+from olympus.utils import get_project_root
 
 app = FastAPI()
 
 STATIC_FOLDER_NAME = "static"
-STATIC_FOLDER = Path(f"./{STATIC_FOLDER_NAME}")
+STATIC_FOLDER = get_project_root() / STATIC_FOLDER_NAME
 
 app.mount(
     f"/{STATIC_FOLDER_NAME}",
-    StaticFiles(directory=STATIC_FOLDER_NAME),
+    StaticFiles(directory=STATIC_FOLDER),
     name=STATIC_FOLDER_NAME,
 )
 
-
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory=get_project_root() / "templates")
 
 
 TAGS = TagCollection.from_json(STATIC_FOLDER / "data" / "tags.json")
