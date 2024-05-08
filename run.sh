@@ -1,1 +1,1 @@
-uvicorn app.main:app --reload
+uvicorn olympus.main:app --reload
